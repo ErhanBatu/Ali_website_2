@@ -185,6 +185,8 @@ section .title::after{
 }
 .home .home-content p{
     text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -683,7 +685,7 @@ span.next:hover, span.prev:hover{
 }
 @media (max-width: 947px){
     .slide-container {
-        width: 80%; /* Adjust the width as per your design */
+        width: 100%; /* Adjust the width as per your design */
         margin: 0 auto; /* Center the container on smaller screens */
       }
     .menu-btn{
