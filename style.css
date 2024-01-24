@@ -682,6 +682,10 @@ span.next:hover, span.prev:hover{
     }
 }
 @media (max-width: 947px){
+    .slide-container {
+        width: 80%; /* Adjust the width as per your design */
+        margin: 0 auto; /* Center the container on smaller screens */
+      }
     .menu-btn{
         display: block;
         z-index: 999;
